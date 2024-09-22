@@ -36,13 +36,14 @@ Pydantic для валидации данных: Используется для
 poetry shell 
 ```
 
+Установите библиотеки
 ```bash
 poetry install
 ```
 
 В случае, если проект не видит библиотеки явно укажите интерпретатор
 
-Visual Studio Code
+-> Visual Studio Code
 ```bash
 CTRL+SHIFT+P -> Select interpreter -> Poetry
 ```
