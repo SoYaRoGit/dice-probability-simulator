@@ -3,9 +3,9 @@ from typing_extensions import Annotated
 
 
 class InputModel(BaseModel):
-    """Валидация входных данных на заданное число 10_000_000 >= x > 0"""
+    """Валидация входных данных на заданное число x [10_000_000 >= x > 0]"""
 
-    counter: Annotated[
+    quantity: Annotated[
         int,
         Field(
             title="Счетчик",
